@@ -1,0 +1,148 @@
+@font-face {
+    font-family: Inter;
+    src: url(fontes/Inter-SemiBold.otf);
+}
+
+body {
+    font-family: Inter;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .games-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .game img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .banner img,
+  .lego-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+  }
+  
+  .lego-banner {
+    background-color: #f4c430;
+    text-align: center;
+  }
+
+body {
+
+    font-family: Inter;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    margin-left: 100px;
+    height: 50px; 
+  }
+  
+  .navbar a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 30px;
+  
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search input {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  .main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .highlight, .vr, .dual-sense {
+    text-align: center;
+  
+  }
+  
+  .controllers .colors,
+  .dual-sense .colors {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .color {
+    text-align: center;
+  }
+  
+  .color img {
+    max-width: 100px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+  }
+  
+  .color button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .color button:hover {
+    background-color: #005bb5;
+  }
+  
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: white;
+  }
+  .navbar2 a{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .headset{
+    background-color: #000;
+  }
